@@ -1,0 +1,17 @@
+1. Setting up project
+a. Install extensions - Python (already), Pylance (already), Docker, yaml.
+b. Check versions of Python, pip in terminal.
+c. Install git. Check git version. Setup git name and email.
+d. Install docker. Check docker version and docker compose.
+e. Install uv via pip. Check version.
+
+2. Project structure
+a. Ensure you are in the desired directory. If not, use mkdir and cd.
+b. Initialize project via uv.
+c. Initialize git directory.
+d. Create folders under and outside src.
+e. Install initial python dependencies using uv (fastapi uvicorn, chromadb, sentence-transformers, pymupdf, pydantic-settings, structlog)
+f. Add development dependencies.
+g. All details/specs/keys are present in pyproject.toml. Resolved dependency vers in uv.lock.
+h. Commit to git. 
+
